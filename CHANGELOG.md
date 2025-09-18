@@ -1,5 +1,9 @@
 ### Changelog:
 
+#### 2.2.1
+
+- Fix for Variable length arrays break builds in some environments (contribution from dbloemendal-mi : https://github.com/silviucpp/erlkaf/pull/82)
+
 #### 2.2.0
 
 - Update to librdkafka v2.10.1
