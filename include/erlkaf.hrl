@@ -18,7 +18,7 @@
 -type security_protocol() :: plaintext | ssl | sasl_plaintext | sasl_ssl.
 -type overflow_strategy() :: local_disk_queue | block_calling_process | drop_records.
 -type partitioner() :: random|consistent|consistent_random|murmur2|murmur2_random.
--type headers() :: undefined | proplists:proplist() | maps:map().
+-type headers() :: undefined | proplists:proplist() | map().
 -type callback_module() :: {callback_module, atom()}.
 -type callback_args() :: {callback_args, [any()]}.
 -type dispatch_mode() :: one_by_one | {batch, non_neg_integer()}.
